@@ -9,10 +9,8 @@ import org.apache.lucene.util.fst.*;
 
 import java.io.IOException;
 
-/*
-1、输入有序情况下，可用于构建最优的FST (fast and low memory overhead)
-2、可用于替代sortedSet（term => Void）或者sortedMap/字典（term => ordinal）
- */
+// 1、输入有序情况下，可用于构建最优的FST (fast and low memory overhead)
+// 2、可用于替代sortedSet（term => Void）或者sortedMap/字典（term => ordinal）
 public class FstCase {
 
   // 等价于sortedMap/字典
