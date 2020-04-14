@@ -7,7 +7,7 @@ using for indexing fields of text/keyword type, relevant lucene's files:
 ## [BKD-Tree](https://users.cs.duke.edu/~pankaj/publications/papers/bkd-sstd.pdf)
 
 using for indexing fields of number type, relevant lucene's files:
-- .dii: resided **OnHeap**, contains field count, and the file pointer in the .dim file
+- .dii: resided **OnHeap**, contains field count, and the fields' file pointer in the .dim file
 - .dim: all fields' point index, each contains: 
     - leaf block: value's common prefix, docs and values (same ordinal with docs)
     - packed index: index for seeking leaf block
